@@ -14,9 +14,10 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn('To-Do', self.browser.title)
         self.fail('Finish the test!')
 
-if __name__ == '__main__':
-    # pass
-    unittest.main(warnings='ignore')
+# if __name__ == '__main__':
+#     # pass
+#     unittest.main(warnings='ignore')
+
 
 
 # browser = webdriver.Firefox()
